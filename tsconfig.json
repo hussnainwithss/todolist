@@ -4,11 +4,13 @@
     "strict": true,
     "allowSyntheticDefaultImports": true,
     "isolatedModules": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "*": ["src/*"],
       "tests": ["tests/*"],
-      "@components/*": ["src/components/*"]
+      "components/*": ["src/components/*", "src/components/*/index"],
+      "screens/*": ["src/screens/*", "src/screens/*/index"],
+      "store/*": ["src/store/*", "src/store/*/index"]
     }
   }
 }

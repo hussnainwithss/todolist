@@ -1,22 +1,15 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, View } from 'react-native';
-import Task from '@components/Task/Task';
+import { Provider } from 'react-redux';
+import { store } from 'store';
+import Container from 'components/Container/Container';
+import TasksPage from 'screens/TasksPage/TasksPage.native';
 
 export default function App(): JSX.Element {
   return (
-    <View style={styles.container}>
-      <Task />
-      <StatusBar style="auto" />
-    </View>
+    <Provider store={store}>
+      <Container>
+        <TasksPage />
+      </Container>
+    </Provider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

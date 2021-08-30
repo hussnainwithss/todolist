@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 const Task: React.FC = () => (
   <View>
-    <Text>Task mobile x</Text>
+    <Text>Task 1</Text>
   </View>
 );
 

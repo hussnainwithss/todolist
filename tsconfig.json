@@ -10,7 +10,8 @@
       "tests": ["tests/*"],
       "components/*": ["src/components/*", "src/components/*/index"],
       "screens/*": ["src/screens/*", "src/screens/*/index"],
-      "store/*": ["src/store/*", "src/store/*/index"]
+      "store/*": ["src/store/*", "src/store/*/index"],
+      "elements/*": ["src/elements/*", "src/elements/*/index"]
     }
   }
 }

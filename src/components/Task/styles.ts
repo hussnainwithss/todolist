@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   taskContainer: {
@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
     marginBottom: 20,
-    shadowColor: "#000",
+    shadowColor: '#000',
     shadowOffset: {
       width: 0,
       height: 2,
@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
     marginBottom: 20,
     maxWidth: '100%',
     width: '50%',
-    shadowColor: "#000",
+    shadowColor: '#000',
     shadowOffset: {
       width: 0,
       height: 2,
@@ -42,7 +42,7 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    flexWrap: 'wrap'
+    flexWrap: 'wrap',
   },
   square: {
     width: 24,
@@ -55,7 +55,6 @@ export const styles = StyleSheet.create({
   taskText: {
     maxWidth: '80%',
     fontSize: 18,
-
   },
   taskCheck: {
     width: 16,
@@ -65,5 +64,4 @@ export const styles = StyleSheet.create({
     borderRadius: 10,
     alignSelf: 'center',
   },
-
 });
